@@ -24,6 +24,7 @@ export const config: WebdriverIO.Config = {
     //
     specs: [
         // ToDo: define location for spec files here
+        './src/tests/**/*.ts'
     ],
     // Patterns to exclude.
     exclude: [
